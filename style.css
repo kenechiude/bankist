@@ -1,0 +1,168 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(231, 228, 228);
+}
+
+header {
+  margin-bottom: 4.8rem;
+}
+
+.login {
+  /* margin: 1.8rem 2.4rem 0 2.4rem; */
+  max-width: 130rem;
+  margin: 0 auto;
+}
+
+.nav-input {
+  text-align: center;
+  border-radius: 4.2rem;
+  margin-right: 0.5rem;
+  border: none;
+  width: 9.8rem;
+  /* background-color: aquamarine; */
+  padding: 0.4rem 0.5rem;
+  font-family: inherit;
+}
+
+.nav-input:focus {
+  outline: none;
+}
+
+.nav-form-btn {
+  background: none;
+  border: none;
+}
+
+.section-container {
+  margin: 0 auto;
+  max-width: 110rem;
+  opacity: 0;
+  transition: all 0.45;
+}
+
+.dat-bal-txt {
+  font-size: 1.2rem;
+  color: rgb(155, 147, 147);
+}
+
+.curr-bal {
+  font-size: 3.2rem;
+}
+
+.transactions-div {
+  overflow: scroll;
+  /* width: 54rem; */
+  height: 50rem;
+  border-radius: 15px;
+  background-color: #fff;
+}
+
+.trans-div {
+  border-bottom: solid 1px rgba(202, 196, 196, 0.5);
+  padding: 3.2rem 5rem;
+}
+
+.deposit {
+  font-size: 1.4rem;
+  padding: 0.4rem 1.4rem;
+  color: #fff;
+  border-radius: 20px;
+  background-color: rgb(22, 165, 58);
+}
+
+.mov-date {
+  font-size: 1.2rem;
+  margin-left: 1.8rem;
+}
+
+.trans-amt {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.withdrawal {
+  font-size: 1.4rem;
+  padding: 0.4rem 1.4rem;
+  color: #fff;
+  border-radius: 20px;
+  background-color: rgb(233, 74, 74);
+}
+
+.flex-vertical {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.transfer-div {
+  padding: 2.4rem 2.4rem 4.2rem 2.4rem;
+  background-color: rgb(255, 166, 0);
+  border-radius: 15px;
+}
+
+.form-tf {
+  margin-top: 2rem;
+}
+
+.tf-input {
+  background-color: rgba(247, 230, 201, 0.377);
+  border: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 5px;
+  margin-bottom: 1.2rem;
+  display: block;
+}
+#tf-to {
+  margin-right: 1.2rem;
+}
+
+.label-div {
+  display: flex;
+  justify-content: center;
+}
+
+.label {
+  margin: 0 auto;
+  font-size: 1.2rem;
+}
+
+.form-tf button,
+.req-loan-div button {
+  border: none;
+  background-color: #fff;
+  padding: 0.4rem 1.2rem;
+  border-radius: 5px;
+  margin-left: 1.2rem;
+  width: 4.5rem;
+}
+
+.req-loan-div {
+  padding: 2.4rem 2.4rem 4.2rem 2.4rem;
+  background-color: rgb(22, 165, 58);
+  border-radius: 15px;
+}
+
+.req-loan-div form {
+  margin-top: 1.8rem;
+}
+
+.req-loan-input,
+.req-loan-input-pin {
+  background-color: rgba(247, 230, 201, 0.377);
+  border: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 5px;
+  margin-bottom: 1.2rem;
+  display: block;
+}
+
+.req-loan-input-pin {
+  margin-left: 0.8rem;
+}

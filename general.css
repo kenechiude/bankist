@@ -1,0 +1,23 @@
+.flex {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+.txt {
+  font-size: 1.8rem;
+}
+
+.mb {
+  margin-bottom: 4.2rem;
+}
+
+input:focus {
+  outline: none;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 4.2rem;
+}

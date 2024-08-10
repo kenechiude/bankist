@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blinkist</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="general.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="login flex">
+        <span class="txt wlc-msg">Login to get started</span>
+        <form action="">
+          <input class="nav-input input-user" type="text" placeholder="USER" />
+          <input class="nav-input input-pin" type="text" placeholder="PIN" />
+          <button class="nav-form-btn">&rArr;</button>
+        </form>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <div class="section-container">
+          <div class="flex mb">
+            <span class="txt"
+              >Current balance <br />
+              <span class="dat-bal-txt">
+                As of <span class="date-bal">7/08/2024</span></span
+              ></span
+            >
+            <span class="curr-bal">N50000.00</span>
+          </div>
+
+          <div class="grid">
+            <div class="transactions-div">
+              <div class="flex trans-div">
+                <div>
+                  <span class="deposit">2 Deposit</span>
+                  <span class="mov-date">23/04/2025</span>
+                </div>
+                <span class="trans-amt">N150000.00</span>
+              </div>
+              <div class="flex trans-div">
+                <span class="withdrawal">1 withdrawal</span>
+                <span class="trans-amt">-N100000.00</span>
+              </div>
+            </div>
+            <aside class="flex-vertical">
+              <div class="transfer-div">
+                <span class="tfm txt">Transfer money</span>
+                <form class="flex form-tf">
+                  <div>
+                    <input
+                      class="tf-input tf-input-to"
+                      id="tf-to"
+                      type="text"
+                    />
+                    <div class="label-div">
+                      <label class="label" for="tf-to">Transfer To</label>
+                    </div>
+                  </div>
+                  <div>
+                    <input
+                      class="tf-input tf-input-amt"
+                      id="amount"
+                      type="text"
+                    />
+                    <div class="label-div">
+                      <label class="label" for="amount">Amount</label>
+                    </div>
+                  </div>
+                  <button class="tf-btn">&rAarr;</button>
+                </form>
+              </div>
+              <div class="req-loan-div">
+                <span class="txt">Request Loan</span>
+                <form class="flex">
+                  <div>
+                    <input id="rq-loan" class="req-loan-input" type="text" />
+                    <div class="label-div">
+                      <label class="label" for="rq-loan">Amount</label>
+                    </div>
+                  </div>
+                  <div>
+                    <input
+                      id="rq-loan-pin"
+                      class="req-loan-input-pin"
+                      type="text"
+                    />
+                    <div class="label-div">
+                      <label class="label" for="rq-loan-pin">PIN</label>
+                    </div>
+                  </div>
+                  <button class="req-loan-btn">&rAarr;</button>
+                </form>
+              </div>
+              <div></div>
+            </aside>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
+<script src="script.js"></script>
