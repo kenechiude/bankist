@@ -204,6 +204,7 @@ loanBtn.addEventListener("click", (e) => {
   loanPin.value = loanAmount.value = "";
 });
 
+// MINI TIMER(NOT PART OF PROJECT)
 const clock = setInterval(() => {
   const time = new Intl.DateTimeFormat("en-US", {
     hour: "numeric",
